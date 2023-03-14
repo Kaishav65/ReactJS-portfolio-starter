@@ -1,0 +1,87 @@
+.works{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 8rem;
+    /* border: 2px solid black; */
+
+}
+.w-right{
+    /* border: 2px solid black; */
+    position: relative;
+}
+.w-mainCircle {
+    border: 2px solid rgb(215, 201, 246);
+    left: 9rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+    position: relative;
+}
+.w-mainCircle{
+    position: absolute;
+    
+}
+
+.w-mainCircle > :nth-child(1){
+    position: absolute;
+ top: -2rem;
+left: 7rem;
+}
+.w-mainCircle > :nth-child(2){
+    position: absolute;
+ top: 6rem;
+left: -2rem;
+}
+.w-mainCircle > :nth-child(3){
+    position: absolute;
+ top: 6rem;
+left: 7rem;
+}
+
+.w-mainCircle > :nth-child(4){
+    position: absolute;
+ top: 15rem;
+left: 7rem;
+}
+.w-mainCircle > :nth-child(5){
+    position: absolute;
+ top: 6rem;
+left: 15rem;
+}
+.w-secCircle{
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid rgb(199, 203, 197);
+    position: absolute;
+    align-items: center;
+    border-radius: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    /* background: none; */
+    box-shadow: var(--smboxShadow);
+}
+.w-secCircle>img{
+    transform: scale(0.6);
+}
+.w-backCircle{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.blueCircle{
+    background-color: blue;
+    left: 16rem;
+    
+}
+.yellowCircle{
+    background-color: yellow;
+    left: 17rem;
+    top: 8rem;
+}
